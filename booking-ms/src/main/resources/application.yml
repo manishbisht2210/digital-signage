@@ -1,0 +1,22 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://signage-database.caciezsccgc6.us-east-2.rds.amazonaws.com:5432/signage-database
+    username: postgres
+    password: postgres1234
+    driver-class-name: org.postgresql.Driver
+  #    data:
+  #      - classpath:data-local.sql
+  jpa:
+    properties:
+      hibernate:
+        dialect:  org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+amazonProperties:
+  endpointUrl: https://s3.us-east-2.amazonaws.com
+  accessKey: AKIATUNHRVGYIMFBB6UN
+  secretKey: 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
+  bucketName: advertise-content

@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: reactive
+
+server:
+  port: 9091
+
+kafka:
+  bootstrapAddress: "localhost:9092"
+  confluentBootstrapAddress: "localhost:9092"
+  confluentApiKey: "anyKey"
+  confluentSecret: "secret"
+  clientId: "content-entries-consume"
+  groupId: "content-entries-group"
+  topic: "content-topic"
+  securityProtocol: "PLAINTEXT"
+

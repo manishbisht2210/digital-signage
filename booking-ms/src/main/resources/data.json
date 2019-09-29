@@ -1,0 +1,24 @@
+{
+  "advertiser": {
+    "id": 9,
+    "name": "Anuj"
+  },
+  "screen": {
+    "screenId":"4"
+  },
+  "bookingContents": [
+    {
+      "content": {
+        "id": 10
+      },
+      "startDate": "1569606192",
+      "startTime": "1569606192",
+      "endDate": "1569609792000",
+      "endTime": "1569609792000"
+    }
+  ],
+  "startDate": "1569606192",
+  "startTime": "1569606192",
+  "endDate": "1569609792000",
+  "endTime": "1569609792000"
+}

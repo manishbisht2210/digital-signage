@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://signage-database.caciezsccgc6.us-east-2.rds.amazonaws.com:5432/signage-database
+    username: postgres
+    password: postgres1234
+    driver-class-name: "org.postgresql.Driver"
+  jpa:
+    properties.hibernate.dialect:  org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+server:
+  port: 9080
+
+kafka:
+  bootstrapAddress: "localhost:9092"
+  confluentBootstrapAddress: "localhost:9092"
+  confluentApiKey: "anyKey"
+  confluentSecret: "secret"
+  clientId: "content-entries"
+  topic: "content-topic"
+  securityProtocol: "PLAINTEXT"
